@@ -1,0 +1,6 @@
+azure-identity
+azure-mgmt-securityinsight == 1.0.0b2
+mitreattack-python
+requests
+stix2
+taxii2-client
