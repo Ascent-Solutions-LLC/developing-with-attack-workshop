@@ -1,11 +1,9 @@
+# Read a (local copy of) enterprise stix data from MITRE
 import json
 
-import requests
 
-
-response = requests.get("https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-11.3.json")
-
-data = response.json()
+with open("stix_data/enterprise-attack.json", "r") as f:
+    data = json.load(f)
 
 objects = data["objects"]
 
