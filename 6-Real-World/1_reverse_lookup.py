@@ -91,6 +91,18 @@ for object in objects:
 techniques = {}
 for object in objects:
     if object.get("type") == "attack-pattern":
+        deprecated = object.get("x_mitre_deprecated")
+        if deprecated:
+            continue
+        deprecated = object.get("x_mitre_deprecated")
+        if deprecated:
+            continue
+        revoked = object.get("revoked")
+        if revoked:
+            continue
+        domains = object.get("x_mitre_domains", [])
+        if "enterprise-attack" not in domains:
+            continue
         technique = Technique(stix_data=object)
         techniques[technique.id] = technique
 
@@ -115,8 +127,15 @@ for object in objects:
             continue
         if "attack-pattern" not in target:
             continue
+        relationship_type = object.get("relationship_type")
+        if relationship_type != "uses":
+            continue
+        if source == "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542":
+            print(object.get("id"))
         group = groups[source]
-        technique = techniques[target]
+        technique = techniques.get(target)
+        if not technique:
+            continue  # deprecated or revoked
         group.techniques.append(technique)
 
 group_techniques = []
