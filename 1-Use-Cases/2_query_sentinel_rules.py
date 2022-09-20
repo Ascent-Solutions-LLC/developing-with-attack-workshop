@@ -26,8 +26,10 @@ alert_rules_template_client = security_insights_client.alert_rule_templates
 # Get all of the Rule Templates
 rule_templates = alert_rules_template_client.list(RESOURCE_GROUP_NAME, WORKSPACE_NAME)
 
+# Get the first template
 example_rule_template = list(rule_templates)[0]
 
+# Print the details
 print(example_rule_template.name)
 print(example_rule_template.description)
 print(example_rule_template.tactics)
