@@ -40,14 +40,14 @@ for item in stix_data["objects"]:
     matched = re.match(pattern, description)
     if not matched:
         continue  # Not deprecated, skip it
-    
+
     updates = matched.groups()[0]
     print()
-    print(f'Found deprecated item:')
+    print("Found deprecated item:")
     print()
     print(f'ID: {item["id"]}')
     print(f'Name: {item.get("name")}')
-    print(f'Description: {description}')
+    print(f"Description: {description}")
     break
 
 

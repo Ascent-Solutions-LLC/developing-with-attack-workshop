@@ -7,4 +7,5 @@ How do we handle this?
 
 ## Example
 
-Load a layer into ATT&CK Navigator w/ an old technique included, it will attempt to upgrade it.
+1. Load a layer into ATT&CK Navigator w/ an old technique included, it will attempt to upgrade it.
+2. Change the version of the layer

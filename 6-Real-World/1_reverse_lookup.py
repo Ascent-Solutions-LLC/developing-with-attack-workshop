@@ -7,14 +7,14 @@ import yaml
 @dataclass
 class Technique:
     stix_data: dict
-    
+
     @property
     def id(self):
         return self.stix_data.get("id")
 
     def __str__(self):
         return f"<Technique {self.mitre_id}>"
-    
+
     @property
     def mitre_id(self):
         ext_refs = self.stix_data.get("external_references")
@@ -22,7 +22,7 @@ class Technique:
             if er.get("source_name") == "mitre-attack":
                 return er.get("external_id")
 
-    
+
 @dataclass
 class Tool:
     stix_data: dict
@@ -42,11 +42,12 @@ class Tool:
     def name(self):
         return self.stix_data.get("name")
 
+
 @dataclass
 class Group:
     stix_data: dict
     techniques: List[Technique] = field(default_factory=lambda: [])
-    
+
     @property
     def id(self):
         return self.stix_data.get("id")
@@ -72,7 +73,6 @@ class Relationship:
     @property
     def id(self):
         return self.stix_data.get("id")
-
 
 
 with open("stix_data/enterprise-attack.json", "r") as f:
@@ -144,11 +144,7 @@ for group in groups:
     technique_ids.sort()
     group_id = groups[group].mitre_id
     name = groups[group].name
-    d = {
-        "name": name,
-        "id": group_id,
-        "techniques": technique_ids
-    }
+    d = {"name": name, "id": group_id, "techniques": technique_ids}
     group_techniques.append(d)
 
 

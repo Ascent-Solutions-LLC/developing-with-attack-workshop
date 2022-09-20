@@ -1,4 +1,3 @@
-from pydoc import describe
 from stix2 import AttackPattern, IntrusionSet, Relationship
 
 
@@ -7,7 +6,7 @@ custom_pattern = AttackPattern(
     id="attack-pattern--d5274981-97a6-46bf-9487-2ceeab525351",
     name="Example Attack Pattern",
     description="This is an example pattern which attackers may use",
-    revoked=False
+    revoked=False,
 )
 
 
@@ -17,7 +16,7 @@ custom_intrusion_set = IntrusionSet(
     name="APT-TBD",
     description="An example instrusion set",
     aliases=["APT-00", "Example Bear"],
-    goals=["Financial"]
+    goals=["Financial"],
 )
 
 
@@ -26,5 +25,5 @@ custom_relationship = Relationship(
     id="relationship--c7274981-97a6-46bf-9487-2ceeab525373",
     relationship_type="Uses",
     source_ref="intrusion-set--a6274981-97a6-46bf-9487-2ceeab525362",
-    target_ref="attack-pattern--d5274981-97a6-46bf-9487-2ceeab525351"
+    target_ref="attack-pattern--d5274981-97a6-46bf-9487-2ceeab525351",
 )

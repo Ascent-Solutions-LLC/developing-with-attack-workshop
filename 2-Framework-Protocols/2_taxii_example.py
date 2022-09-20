@@ -21,7 +21,9 @@ for collection in api_root.collections:
     if collection.title == "Enterprise ATT&CK":
         enterprise_id = collection.id
 
-enterprise_collection = Collection(f"{MITRE_TAXII_SERVER_URL}/stix/collections/{enterprise_id}")
+enterprise_collection = Collection(
+    f"{MITRE_TAXII_SERVER_URL}/stix/collections/{enterprise_id}"
+)
 collection_source = TAXIICollectionSource(enterprise_collection)
 technique_filter = Filter("type", "=", "attack-pattern")
 techniques = collection_source.query(technique_filter)

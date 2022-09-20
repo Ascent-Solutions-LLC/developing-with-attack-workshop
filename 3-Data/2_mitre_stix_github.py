@@ -6,7 +6,10 @@ import json
 import requests
 
 
-response = requests.get("https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-11.3.json")
+SOURCE_URL = "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack"
+VERSION = "enterprise-attack-11.3"
+
+response = requests.get(f"{SOURCE_URL}/{VERSION}.json")
 
 data = response.json()
 
