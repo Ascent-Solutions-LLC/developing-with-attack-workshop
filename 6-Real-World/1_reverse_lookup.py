@@ -75,7 +75,7 @@ class Relationship:
         return self.stix_data.get("id")
 
 
-with open("stix_data/enterprise-attack.json", "r") as f:
+with open("data/stix_data/enterprise-attack.json", "r") as f:
     data = json.load(f)
 
 
@@ -130,8 +130,6 @@ for object in objects:
         relationship_type = object.get("relationship_type")
         if relationship_type != "uses":
             continue
-        if source == "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542":
-            print(object.get("id"))
         group = groups[source]
         technique = techniques.get(target)
         if not technique:
