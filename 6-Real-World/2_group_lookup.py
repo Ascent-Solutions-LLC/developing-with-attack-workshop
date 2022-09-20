@@ -5,7 +5,7 @@ import yaml
 
 
 # Read in a layer we are interested in: intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542
-with open("6-Real-World/G0016-enterprise-layer.json", "r") as f:
+with open("data/layers/G0016-enterprise-layer.json", "r") as f:
     layer = json.load(f)
 
 layer_techniques = layer.get("techniques")

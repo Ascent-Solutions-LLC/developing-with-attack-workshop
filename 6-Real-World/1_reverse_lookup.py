@@ -151,5 +151,5 @@ for group in groups:
 tool_techniques = []
 
 
-with open("group-techniques.yml", "w") as f:
+with open("6-Real-World/group-techniques.yml", "w") as f:
     yaml.dump(group_techniques, f)
