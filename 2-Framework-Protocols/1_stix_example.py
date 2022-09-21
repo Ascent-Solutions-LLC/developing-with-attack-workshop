@@ -24,6 +24,8 @@ custom_intrusion_set = IntrusionSet(
 custom_relationship = Relationship(
     id="relationship--c7274981-97a6-46bf-9487-2ceeab525373",
     relationship_type="Uses",
-    source_ref="intrusion-set--a6274981-97a6-46bf-9487-2ceeab525362",
-    target_ref="attack-pattern--d5274981-97a6-46bf-9487-2ceeab525351",
+    source_ref=custom_intrusion_set.id,
+    target_ref=custom_pattern.id,
 )
+
+print(custom_relationship)
