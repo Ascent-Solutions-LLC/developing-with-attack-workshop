@@ -2,7 +2,7 @@
 import json
 from stix2 import parse
 
-with open("stix_data/enterprise-attack.json", "r") as f:
+with open("data/stix_data/enterprise-attack.json", "r") as f:
     data = json.load(f)
 
 objects = data["objects"]

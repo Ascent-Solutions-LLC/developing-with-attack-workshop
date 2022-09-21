@@ -3,6 +3,7 @@
 ## Introduction and use cases. 
 Why should we develop against MITRE ATT&CK?
 
+
 ## Frameworks and protocols.
 How is MITRE ATT&CK organized, structured, and communicated?
 
