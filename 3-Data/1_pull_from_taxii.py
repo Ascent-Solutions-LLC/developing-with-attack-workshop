@@ -17,7 +17,7 @@ enterprise_collection = Collection(
 collection_source = TAXIICollectionSource(enterprise_collection)
 
 groups_filter = Filter("type", "=", "intrusion-set")
-group_name_filter = Filter("name", "contains", "APT29")
+group_name_filter = Filter("name", "contains", "Ajax Security Team")
 groups = collection_source.query([groups_filter, group_name_filter])
 
 applicable_group = groups[0]
@@ -30,11 +30,10 @@ print(len(relationships))
 
 technique_filter = Filter("type", "=", "attack-pattern")
 applicable_techniques = Filter("id", "in", [r.target_ref for r in relationships])
-active = Filter("x_mitre_deprecated", "=", False)
-current = Filter("revoked", "=", False)
 techniques = collection_source.query(
-    [technique_filter, applicable_techniques, active, current]
+    [technique_filter, applicable_techniques]
 )
+techniques = list(filter(lambda x: x.get("x_mitre_deprecated", False) is False and x.get("revoked", False) is False, techniques))
 
 for technique in techniques:
-    print(technique.id)
+    print(f'{technique.id} -> {technique.get("external_references")[0].get("external_id")}')

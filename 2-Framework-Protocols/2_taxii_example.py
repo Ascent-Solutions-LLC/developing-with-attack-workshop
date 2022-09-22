@@ -17,6 +17,8 @@ print("Collections:")
 for collection in api_root.collections:
     print(collection.title)
 
+print()
+
 for collection in api_root.collections:
     if collection.title == "Enterprise ATT&CK":
         enterprise_id = collection.id
@@ -28,4 +30,4 @@ collection_source = TAXIICollectionSource(enterprise_collection)
 technique_filter = Filter("type", "=", "attack-pattern")
 techniques = collection_source.query(technique_filter)
 technique = techniques[0]
-print(f"<Technique: {technique.id} Name: {technique.name}")
+print(f"<Technique: {technique.id} Name: {technique.name} Description: {technique.description}>")

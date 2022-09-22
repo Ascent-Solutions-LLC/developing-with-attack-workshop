@@ -9,10 +9,10 @@ objects = data["objects"]
 
 for object in objects:
     if object.get("id") == "attack-pattern--7d20fff9-8751-404e-badd-ccd71bda0236":
-        print(json.dumps(object, indent=2))
-
-for object in objects:
-    if object.get("id") == "attack-pattern--7d20fff9-8751-404e-badd-ccd71bda0236":
-        # Let's also parse this into a stix object
         stix_object = parse(object, allow_custom=True)
-        print(stix_object)
+        break
+
+print(type(stix_object))
+print(stix_object.id)
+print(stix_object.name)
+print(stix_object.description)

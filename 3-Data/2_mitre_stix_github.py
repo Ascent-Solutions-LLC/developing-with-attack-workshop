@@ -4,6 +4,7 @@
 import json
 
 import requests
+from stix2 import parse
 
 
 SOURCE_URL = "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack"
@@ -17,4 +18,10 @@ objects = data["objects"]
 
 for object in objects:
     if object.get("id") == "attack-pattern--7d20fff9-8751-404e-badd-ccd71bda0236":
-        print(json.dumps(object, indent=2))
+        stix_object = parse(object, allow_custom=True)
+        break
+
+print(type(stix_object))
+print(stix_object.id)
+print(stix_object.name)
+print(stix_object.description)
