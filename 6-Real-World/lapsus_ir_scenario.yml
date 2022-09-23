@@ -1,6 +1,6 @@
-- id: DEV-0537
-  name: Lapsus
-  techniques:
+id: DEV-0537
+name: Lapsus
+techniques:
   - T1589.001
   - T1621
   - T1566.003
