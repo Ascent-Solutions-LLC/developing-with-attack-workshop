@@ -39,3 +39,11 @@ See `requirements.txt` for the packages which will be installed
 ```bash
 python -m pip install -r requirements.txt
 ```
+
+## Check
+
+Make sure everything works!
+
+```bash
+python workshop_check.py
+```
