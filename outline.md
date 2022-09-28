@@ -32,5 +32,4 @@ Gotchas:
 
 * ATT&CK does Group Navigator layers with TTPs __only__ not the Software that they have also used
 * Enumerating STIX data can be costly, caching considerations
-
-Nav layer updater that Brian created??? Cool tool!!!
+* ATT&CK and Navigator version struggles
