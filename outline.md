@@ -1,10 +1,10 @@
 # Outline for Developing with ATT&CK Workshop
 
-## Introduction and use cases. 
+## Introduction and use cases
 Why should we develop against MITRE ATT&CK?
 
 
-## Frameworks and protocols.
+## Frameworks and protocols
 How is MITRE ATT&CK organized, structured, and communicated?
 
 ## Data
@@ -32,20 +32,4 @@ Gotchas:
 
 * ATT&CK does Group Navigator layers with TTPs __only__ not the Software that they have also used
 * Enumerating STIX data can be costly, caching considerations
-
-
-Nod to MITRE ATT&CK Defender course....although it covers more of the theory than the practical that our course will discuss.
-
-
-Expand upon https://attack.mitre.org/resources/working-with-attack/
-
-STIX/TAXII server call considerations
-
-ATT&CK Workbench?
-
-ATT&CK pip module?
-https://github.com/mitre-attack/mitreattack-python
-
-Navlayers example with pip module?
-
-Nav layer updater that Brian created??? Cool tool!!!
+* ATT&CK and Navigator version struggles
