@@ -1,8 +1,5 @@
 # Developing with MITRE ATT&CK
 
-Texas Cyber Summit 2022
-
-
 
 ## Setup
 The examples in this repo are built for a Python3 environment.
