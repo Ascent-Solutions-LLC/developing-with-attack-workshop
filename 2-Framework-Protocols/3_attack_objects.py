@@ -15,9 +15,11 @@ for object in objects:
         print(f"STIX Object Type: {type(stix_object)}")
         print(f'ID: {object.get("id")}')
         print(f'Name: {object.get("name")}')
-        print(f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}')
+        print(
+            f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}'
+        )
         print()
-    
+
     elif object.get("id") == "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073":
         stix_object = parse(object, allow_custom=True)
         print("Example Technique")
@@ -25,17 +27,23 @@ for object in objects:
         print(f"STIX Object Type: {type(stix_object)}")
         print(f'ID: {object.get("id")}')
         print(f'Name: {object.get("name")}')
-        print(f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}')
+        print(
+            f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}'
+        )
         print()
 
-    elif object.get("id") == "x-mitre-data-source--d6188aac-17db-4861-845f-57c369f9b4c8":
+    elif (
+        object.get("id") == "x-mitre-data-source--d6188aac-17db-4861-845f-57c369f9b4c8"
+    ):
         stix_object = parse(object, allow_custom=True)
         print("Example Data Source")
         print(f'Object type: {object.get("type")}')
         print(f"STIX Object Type: {type(stix_object)}")
         print(f'ID: {object.get("id")}')
         print(f'Name: {object.get("name")}')
-        print(f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}')
+        print(
+            f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}'
+        )
         print()
 
     elif object.get("id") == "course-of-action--f9f9e6ef-bc0a-41ad-ba11-0924e5e84c4c":
@@ -45,7 +53,9 @@ for object in objects:
         print(f"STIX Object Type: {type(stix_object)}")
         print(f'ID: {object.get("id")}')
         print(f'Name: {object.get("name")}')
-        print(f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}')
+        print(
+            f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}'
+        )
         print()
 
     elif object.get("id") == "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756":
@@ -55,7 +65,9 @@ for object in objects:
         print(f"STIX Object Type: {type(stix_object)}")
         print(f'ID: {object.get("id")}')
         print(f'Name: {object.get("name")}')
-        print(f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}')
+        print(
+            f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}'
+        )
         print()
 
     elif object.get("id") == "malware--7bec698a-7e20-4fd3-bb6a-12787770fb1a":
@@ -65,5 +77,7 @@ for object in objects:
         print(f"STIX Object Type: {type(stix_object)}")
         print(f'ID: {object.get("id")}')
         print(f'Name: {object.get("name")}')
-        print(f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}')
+        print(
+            f'MITRE ID: {object.get("external_references", [])[0].get("external_id")}'
+        )
         print()

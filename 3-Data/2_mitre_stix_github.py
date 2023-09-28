@@ -1,8 +1,5 @@
 # MITRE maintains a repository of current (and versioned) STIX data
 
-
-import json
-
 import requests
 from stix2 import parse
 

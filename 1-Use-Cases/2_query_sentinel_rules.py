@@ -12,13 +12,14 @@ load_dotenv()
 SUBSCRIPTION_ID = os.environ["SUBSCRIPTION_ID"]
 RESOURCE_GROUP_NAME = os.environ["RESOURCE_GROUP_NAME"]
 WORKSPACE_NAME = os.environ["WORKSPACE_NAME"]
+API_VERSION = "2023-07-01-preview"
 
 
 # Use the Default Azure Credential (via something like `az login`)
 credential = DefaultAzureCredential(exclude_visual_studio_code_credential=True)
 
 # create a Security Insights Client
-security_insights_client = SecurityInsights(credential, SUBSCRIPTION_ID)
+security_insights_client = SecurityInsights(credential, SUBSCRIPTION_ID, api_version=API_VERSION)
 
 # create a Rule Templates Client
 alert_rules_template_client = security_insights_client.alert_rule_templates

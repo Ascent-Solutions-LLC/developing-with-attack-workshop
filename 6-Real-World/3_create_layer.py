@@ -16,7 +16,9 @@ similarity = {}
 
 for group in group_data:
     group_technique_ids = group["techniques"]
-    ratio = SequenceMatcher(None, group_technique_ids, interesting_technique_ids).ratio()
+    ratio = SequenceMatcher(
+        None, group_technique_ids, interesting_technique_ids
+    ).ratio()
     similarity[group["name"]] = ratio
 
 output = dict(sorted(similarity.items(), key=lambda item: item[1], reverse=True))
@@ -31,65 +33,53 @@ for i, k in enumerate(output):
 
 layer_techniques = []
 for technique in interesting_technique_ids:
-    layer_technique = {
-        "techniqueID": technique,
-        "score": 1,
-        "enabled": True
-    }
+    layer_technique = {"techniqueID": technique, "score": 1, "enabled": True}
     layer_techniques.append(layer_technique)
 
 layer_data = {
     "name": "Lapsus IR Scenario",
     "description": top_matches,
     "techniques": layer_techniques,
-    "versions": {
-		"attack": "11",
-		"navigator": "4.6.6",
-		"layer": "4.3"
-	},
-	"domain": "enterprise-attack",
-	"description": top_matches,
-	"filters": {
-		"platforms": [
-			"Linux",
-			"macOS",
-			"Windows",
-			"PRE",
-			"Containers",
-			"Network",
-			"Office 365",
-			"SaaS",
-			"Google Workspace",
-			"IaaS",
-			"Azure AD"
-		]
-	},
-	"sorting": 0,
-	"layout": {
-		"layout": "side",
-		"aggregateFunction": "average",
-		"showID": False,
-		"showName": True,
-		"showAggregateScores": False,
-		"countUnscored": False
-	},
-	"hideDisabled": False,
-	"gradient": {
-		"colors": [
-			"#ff6666ff",
-			"#ffe766ff",
-			"#8ec843ff"
-		],
-		"minValue": 0,
-		"maxValue": 100
-	},
-	"legendItems": [],
-	"metadata": [],
-	"links": [],
-	"showTacticRowBackground": False,
-	"tacticRowBackground": "#dddddd",
-	"selectTechniquesAcrossTactics": False,
-	"selectSubtechniquesWithParent": False
+    "versions": {"attack": "13", "navigator": "4.8.2", "layer": "4.4"},
+    "domain": "enterprise-attack",
+    "description": top_matches,
+    "filters": {
+        "platforms": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "PRE",
+            "Containers",
+            "Network",
+            "Office 365",
+            "SaaS",
+            "Google Workspace",
+            "IaaS",
+            "Azure AD",
+        ]
+    },
+    "sorting": 0,
+    "layout": {
+        "layout": "side",
+        "aggregateFunction": "average",
+        "showID": False,
+        "showName": True,
+        "showAggregateScores": False,
+        "countUnscored": False,
+    },
+    "hideDisabled": False,
+    "gradient": {
+        "colors": ["#ff6666ff", "#ffe766ff", "#8ec843ff"],
+        "minValue": 0,
+        "maxValue": 100,
+    },
+    "legendItems": [],
+    "metadata": [],
+    "links": [],
+    "showTacticRowBackground": False,
+    "tacticRowBackground": "#dddddd",
+    "selectTechniquesAcrossTactics": False,
+    "selectSubtechniquesWithParent": False,
 }
 
 with open("6-Real-World/lapsus_layer.json", "w") as f:

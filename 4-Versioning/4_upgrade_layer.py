@@ -74,19 +74,11 @@ new_technique_ids = list(set(new_technique_ids))  # remove duplicates
 
 new_layer_techniques = []
 for new_t_id in new_technique_ids:
-    new_layer_technique = {
-        "techniqueID": new_t_id,
-        "score": 1,
-        "enabled": True
-    }
+    new_layer_technique = {"techniqueID": new_t_id, "score": 1, "enabled": True}
     new_layer_techniques.append(new_layer_technique)
 
 layer["techniques"] = new_layer_techniques
-layer["versions"] = {
-		"attack": "11",
-		"navigator": "4.6.6",
-		"layer": "4.3"
-	}
+layer["versions"] = {"attack": "11", "navigator": "4.6.6", "layer": "4.3"}
 layer["name"] = "Older (updated) layer"
 layer["description"] = "Updated the older layer with the current techniques"
 

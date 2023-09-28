@@ -1,7 +1,9 @@
 attackcti
 azure-identity
 azure-mgmt-securityinsight == 1.0.0b2
+black
 mitreattack-python
+python-dotenv
 pyyaml
 requests
 stix2

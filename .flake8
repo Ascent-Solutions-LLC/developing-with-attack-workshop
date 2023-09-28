@@ -1,0 +1,27 @@
+[flake8]
+exclude = 
+    env,
+    .git,
+    .pytest_cache,
+    .python_packages
+    .vscode,
+    __pycache__
+ignore = 
+    E111,
+    E114,
+    E121,
+    E501,
+    W503
+max-line-length = 120
+select = B,B9,BLK,C,E,F,I,S,W
+# Import order
+import-order-style = google
+
+# Bandit
+per-file-ignores = 
+    */tests/*:S101
+    # Ignore unused config. Used later.
+    configuration/*:F401
+
+# Black
+extend-ignore = E203

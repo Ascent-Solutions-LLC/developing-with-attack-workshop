@@ -12,7 +12,7 @@ print(description)
 
 techniques = layer["techniques"]
 for technique in techniques:
-    technique["score"] = technique["score"] * 5
+    technique["score"] = technique.get("score", 0) * 5
 
 with open("data/layers/example_layer_updated.json", "w") as f:
     json.dump(layer, f, indent=2)
