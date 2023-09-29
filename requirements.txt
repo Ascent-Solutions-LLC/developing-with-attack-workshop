@@ -3,6 +3,7 @@ azure-identity
 azure-mgmt-securityinsight == 1.0.0b2
 black
 mitreattack-python
+pydantic
 python-dotenv
 pyyaml
 requests
