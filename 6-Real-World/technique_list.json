@@ -1,0 +1,3017 @@
+{
+  "T1012": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1115",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SC-25",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1016": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1033": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1115",
+      "CM1127",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SC-25",
+      "AC-12",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1039": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1118",
+      "CM1127",
+      "CM1135",
+      "CM2015",
+      "CM2033"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SC-32",
+      "SI-14(3)",
+      "SC-28(1)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1040": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1126",
+      "CM1127",
+      "CM1148",
+      "CM2002",
+      "CM2017"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "IA-2(13)",
+      "SI-14(3)",
+      "SC-30",
+      "SC-8(5)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)",
+      "AU-6(8)"
+    ]
+  },
+  "T1056": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1120",
+      "CM2005",
+      "CM2033"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SC-11",
+      "SI-4(16)",
+      "AC-2(12)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1068": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1134",
+      "CM2003"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SI-14(1)",
+      "AC-2(12)"
+    ]
+  },
+  "T1069": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1078": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM2013"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "AU-6(3)",
+      "SI-4(16)"
+    ]
+  },
+  "T1082": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1087": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM2015",
+      "CM2020"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1098": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1126",
+      "CM2018",
+      "CM2021"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "IA-2(13)",
+      "AU-6(5)",
+      "AC-2(12)"
+    ]
+  },
+  "T1110": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1126",
+      "CM1128",
+      "CM1129",
+      "CM2004"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "IA-2(13)",
+      "SA-17(9)",
+      "CA-7(5)",
+      "AU-6"
+    ]
+  },
+  "T1114": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1126",
+      "CM2002",
+      "CM2015",
+      "CM2020",
+      "CM2034",
+      "CM2038"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "IA-2(13)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1119": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1114",
+      "CM1116",
+      "CM1157",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SI-23",
+      "SC-30(3)",
+      "AC-23",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1190": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1102",
+      "CM1107",
+      "CM2004"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "CA-8",
+      "CA-8(2)",
+      "AU-6"
+    ]
+  },
+  "T1200": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1125",
+      "CM2007"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "IA-3(1)",
+      "CM-8(3)"
+    ]
+  },
+  "T1213": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1107",
+      "CM1114",
+      "CM1117",
+      "CM1124",
+      "CM1135",
+      "CM2017",
+      "CM2021"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SI-19(8)",
+      "SI-23",
+      "AC-2(6)",
+      "AC-2(8)",
+      "SI-14(2)",
+      "SI-21",
+      "SI-19(4)",
+      "AU-6(8)",
+      "AC-2(12)"
+    ]
+  },
+  "T1482": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM2015",
+      "CM2020"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1526": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1104",
+      "CM2020"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-29",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1534": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1159",
+      "CM2020"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "AT-2(1)",
+      "AT-2(3)",
+      "AT-2(5)",
+      "AT-3(3)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1552": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1118",
+      "CM2018"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SC-2",
+      "SC-2(1)",
+      "SC-32",
+      "SC-32(1)",
+      "AU-6(3)",
+      "AU-6(5)"
+    ]
+  },
+  "T1555": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM2033"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1566": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1103",
+      "CM1123"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-44",
+      "SC-35",
+      "SC-44",
+      "SC-26"
+    ]
+  },
+  "T1583": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1107",
+      "CM1161"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "CA-8",
+      "CA-8(2)",
+      "PM-16"
+    ]
+  },
+  "T1589": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1113",
+      "CM1159",
+      "CM2002"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SC-30(4)",
+      "SI-20",
+      "AT-2(1)",
+      "AT-3(3)",
+      "AT-2(5)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)"
+    ]
+  },
+  "T1591": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1113"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SC-30(4)",
+      "SI-20"
+    ]
+  },
+  "T1592": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1104",
+      "CM1113",
+      "CM1160"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-29",
+      "SC-30(4)",
+      "SI-20",
+      "SC-28(1)",
+      "SC-30",
+      "SC-30(5)"
+    ]
+  },
+  "T1593": {
+    "candidate_mitigations": [
+      "CM1101"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20"
+    ]
+  },
+  "T1594": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1113"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SC-30(4)"
+    ]
+  },
+  "T1595": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1104",
+      "CM1160",
+      "CM2002"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SC-26",
+      "SC-29",
+      "SC-28(1)",
+      "SC-30",
+      "SC-30(5)",
+      "SC-7(16)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)"
+    ]
+  },
+  "T1596": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1107",
+      "CM1162"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "CA-8",
+      "CA-8(2)",
+      "SR-6(1)",
+      "SR-7",
+      "SR-3(2)"
+    ]
+  },
+  "T1598": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1107",
+      "CM1123",
+      "CM1159",
+      "CM2041"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "AT-2(1)",
+      "AT-3(3)",
+      "SC-35",
+      "AT-2(1)",
+      "AT-2(3)",
+      "AT-2(5)",
+      "AT-3(3)",
+      "IR-4(13)"
+    ]
+  },
+  "T1602": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM2002"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)"
+    ]
+  },
+  "T1614": {
+    "candidate_mitigations": [
+      "CM1101",
+      "CM1156",
+      "CM2015",
+      "CM2038"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "SC-30(3)",
+      "IR-4(13)",
+      "IR-4(13)"
+    ]
+  },
+  "T1008": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM1146",
+      "CM1151",
+      "CM2002",
+      "CM2041"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "SI-14(3)",
+      "SC-30(2)",
+      "AC-4(21)",
+      "SC-7(21)",
+      "SC-7(22)",
+      "AC-4(8)",
+      "AC-4(17)",
+      "IR-4(13)",
+      "SI-4(4)",
+      "IR-4(13)"
+    ]
+  },
+  "T1014": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM1164",
+      "CM2044"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "AC-6(5)",
+      "AC-6",
+      "CM-7(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1021": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM1108",
+      "CM1153",
+      "CM2018"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "IR-4(2)",
+      "SC-7(20)",
+      "SC-7(15)",
+      "AU-6(3)",
+      "AU-6(5)"
+    ]
+  },
+  "T1036": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM2033"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(24)"
+    ]
+  },
+  "T1112": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM2015",
+      "CM2044"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1197": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM2020"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1202": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM2005"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "AC-2(12)",
+      "SI-4(16)"
+    ]
+  },
+  "T1210": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM2003",
+      "CM2047"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "AC-2(12)",
+      "IR-4(13)",
+      "SI-4(11)",
+      "SI-4(13)"
+    ]
+  },
+  "T1497": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM1123"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "SC-35",
+      "SC-26"
+    ]
+  },
+  "T1499": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM1108",
+      "CM1118",
+      "CM1122",
+      "CM1147",
+      "CM2047"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "AU-5(3)",
+      "IR-4(2)",
+      "SC-7(20)",
+      "SC-2",
+      "SC-32",
+      "CP-2(8)",
+      "RA-9",
+      "SI-4(1)",
+      "SI-7",
+      "SI-7(1)",
+      "SC-5(2)",
+      "SC-5(3)",
+      "IR-4(13)"
+    ]
+  },
+  "T1547": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM1104",
+      "CM1115",
+      "CM1134",
+      "CM2044"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "SC-26",
+      "SC-25",
+      "SC-34(1)",
+      "SC-34",
+      "SI-14(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1562": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM1115",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "SC-25",
+      "SC-34(1)",
+      "SC-34",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1568": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM2002"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "IR-4(13)",
+      "SI-4(4)"
+    ]
+  },
+  "T1570": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM1108",
+      "CM1115",
+      "CM1153",
+      "CM2033"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "IR-4(2)",
+      "SC-7(20)",
+      "SC-25",
+      "SC-34",
+      "AC-4(27)",
+      "AC-4(30)",
+      "AC-4(29)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(24)"
+    ]
+  },
+  "T1590": {
+    "candidate_mitigations": [
+      "CM1102",
+      "CM1113",
+      "CM2002"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SC-26",
+      "SC-7(21)",
+      "SC-30(4)",
+      "SI-20",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)"
+    ]
+  },
+  "T1027": {
+    "candidate_mitigations": [
+      "CM1103",
+      "CM1110",
+      "CM2038"
+    ],
+    "control_list": [
+      "SC-44",
+      "IR-4(2)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-7(1)",
+      "SI-7(7)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1203": {
+    "candidate_mitigations": [
+      "CM1103",
+      "CM1131",
+      "CM2003",
+      "CM2019"
+    ],
+    "control_list": [
+      "SC-44",
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)",
+      "AC-2(12)",
+      "IR-4(12)"
+    ]
+  },
+  "T1018": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1160",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-26",
+      "SC-30",
+      "SC-30(5)",
+      "SC-7(16)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1037": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1115",
+      "CM1134",
+      "CM2015",
+      "CM2029",
+      "CM2044"
+    ],
+    "control_list": [
+      "SC-26",
+      "SC-25",
+      "SC-34(1)",
+      "SC-34",
+      "SI-14(1)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1046": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM2002"
+    ],
+    "control_list": [
+      "SC-26",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)"
+    ]
+  },
+  "T1053": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM2004",
+      "CM2035"
+    ],
+    "control_list": [
+      "SC-26",
+      "AU-6",
+      "AU-6"
+    ]
+  },
+  "T1070": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1158",
+      "CM2033"
+    ],
+    "control_list": [
+      "SC-26",
+      "AU-9(1)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1083": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1115",
+      "CM1116",
+      "CM2015",
+      "CM2020"
+    ],
+    "control_list": [
+      "SC-26",
+      "SC-25",
+      "SC-30(3)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1102": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM2018",
+      "CM2042"
+    ],
+    "control_list": [
+      "SC-26",
+      "AU-6(3)",
+      "AU-6(5)",
+      "IR-4(13)"
+    ]
+  },
+  "T1135": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1160",
+      "CM2015",
+      "CM2020"
+    ],
+    "control_list": [
+      "SC-26",
+      "SC-30",
+      "SC-30(5)",
+      "SC-7(16)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1205": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1127",
+      "CM2002"
+    ],
+    "control_list": [
+      "SC-26",
+      "SC-10",
+      "SI-14(3)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)"
+    ]
+  },
+  "T1219": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1115",
+      "CM2002",
+      "CM2041"
+    ],
+    "control_list": [
+      "SC-26",
+      "SC-25",
+      "SC-34(1)",
+      "SC-34",
+      "IR-4(13)",
+      "SI-4(4)",
+      "IR-4(13)"
+    ]
+  },
+  "T1221": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM2020"
+    ],
+    "control_list": [
+      "SC-26",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1484": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1149",
+      "CM2005"
+    ],
+    "control_list": [
+      "SC-26",
+      "AC-3(11)",
+      "AC-2(12)"
+    ]
+  },
+  "T1486": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1114",
+      "CM1116",
+      "CM1122",
+      "CM1138",
+      "CM1139",
+      "CM1141",
+      "CM1142",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-26",
+      "SI-23",
+      "SC-30(3)",
+      "CP-2(8)",
+      "RA-9",
+      "SI-4(1)",
+      "SI-7",
+      "SI-7(1)",
+      "IR-4(2)",
+      "SI-22",
+      "IR-4(2)",
+      "AC-4(3)",
+      "IR-4(9)",
+      "SI-22",
+      "SI-23",
+      "SC-36",
+      "CP-2(5)",
+      "IR-4(2)",
+      "CP-9(6)",
+      "AC-4(2)",
+      "AC-4(8)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1491": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1116",
+      "CM1130",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-26",
+      "SC-30(3)",
+      "SA-9(7)",
+      "SI-7(1)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1529": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1122",
+      "CM1143",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-26",
+      "CP-2(8)",
+      "RA-9",
+      "SI-4(1)",
+      "SI-7",
+      "SI-7(1)",
+      "CP-2(5)",
+      "IR-4(2)",
+      "SC-29",
+      "SA-17(9)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1543": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1134",
+      "CM2009"
+    ],
+    "control_list": [
+      "SC-26",
+      "SI-14(1)",
+      "SI-7",
+      "SI-7(1)"
+    ]
+  },
+  "T1546": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1134",
+      "CM2009",
+      "CM2015",
+      "CM2035"
+    ],
+    "control_list": [
+      "SC-26",
+      "SI-14(1)",
+      "SI-7",
+      "SI-7(1)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "AU-6"
+    ]
+  },
+  "T1561": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1116",
+      "CM1122",
+      "CM1138",
+      "CM1139",
+      "CM1141",
+      "CM1142",
+      "CM1143",
+      "CM1145",
+      "CM2007"
+    ],
+    "control_list": [
+      "SC-26",
+      "SC-30(3)",
+      "CP-2(8)",
+      "RA-9",
+      "SI-4(1)",
+      "SI-7",
+      "SI-7(1)",
+      "IR-4(2)",
+      "SI-22",
+      "IR-4(2)",
+      "AC-4(3)",
+      "IR-4(9)",
+      "SI-22",
+      "SI-23",
+      "SC-36",
+      "CP-9",
+      "CP-2(5)",
+      "IR-4(2)",
+      "CP-9(6)",
+      "AC-4(2)",
+      "AC-4(8)",
+      "CP-2(5)",
+      "IR-4(2)",
+      "SC-29",
+      "SA-17(9)",
+      "IR-4(2)",
+      "IR-4(3)",
+      "SC-48",
+      "SC-48(1)",
+      "SI-4(1)",
+      "AC-2(6)",
+      "SC-7(20)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1565": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM1120",
+      "CM1137",
+      "CM1138",
+      "CM1155",
+      "CM2006"
+    ],
+    "control_list": [
+      "SC-26",
+      "SC-11",
+      "SI-7",
+      "SI-7(1)",
+      "PL-8(1)",
+      "IR-4(2)",
+      "SI-22",
+      "SI-15",
+      "SR-10"
+    ]
+  },
+  "T1580": {
+    "candidate_mitigations": [
+      "CM1104",
+      "CM2004"
+    ],
+    "control_list": [
+      "SC-26",
+      "SC-29",
+      "AU-6"
+    ]
+  },
+  "T1195": {
+    "candidate_mitigations": [
+      "CM1105",
+      "CM1106",
+      "CM2009",
+      "CM2010",
+      "CM2011"
+    ],
+    "control_list": [
+      "SR-4",
+      "SR-4(1)",
+      "SR-4(2)",
+      "SR-4(3)",
+      "SR-4(4)",
+      "PL-8(2)",
+      "SR-3(1)",
+      "SR-3(2)",
+      "CM-14",
+      "SI-7",
+      "SI-7(1)",
+      "SR-4(3)",
+      "SR-6(1)",
+      "SR-10",
+      "SR-9"
+    ]
+  },
+  "T1003": {
+    "candidate_mitigations": [
+      "CM1107",
+      "CM1135",
+      "CM2004",
+      "CM2038"
+    ],
+    "control_list": [
+      "CA-8",
+      "CA-8(2)",
+      "SC-28(1)",
+      "AU-6",
+      "IR-4(13)"
+    ]
+  },
+  "T1020": {
+    "candidate_mitigations": [
+      "CM1107",
+      "CM1112",
+      "CM1113",
+      "CM1114",
+      "CM1153",
+      "CM2002",
+      "CM2015"
+    ],
+    "control_list": [
+      "CA-8",
+      "SC-7(10)",
+      "SI-20",
+      "SC-26",
+      "SC-30(4)",
+      "SI-20",
+      "SI-23",
+      "AC-4(27)",
+      "AC-4(30)",
+      "AC-4(29)",
+      "AU-6",
+      "SI-4(18)",
+      "SI-4(4)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1597": {
+    "candidate_mitigations": [
+      "CM1107",
+      "CM1161",
+      "CM1162"
+    ],
+    "control_list": [
+      "CA-8",
+      "CA-8(2)",
+      "SC-30(4)",
+      "SI-20",
+      "PM-16",
+      "SR-6(1)",
+      "SR-7",
+      "SR-3(2)"
+    ]
+  },
+  "T1498": {
+    "candidate_mitigations": [
+      "CM1108",
+      "CM1143",
+      "CM1147",
+      "CM2047"
+    ],
+    "control_list": [
+      "AU-5(3)",
+      "IR-4(2)",
+      "SC-7(20)",
+      "SC-22",
+      "SC-5(2)",
+      "SC-5(3)",
+      "IR-4(13)"
+    ]
+  },
+  "T1091": {
+    "candidate_mitigations": [
+      "CM1109",
+      "CM2008"
+    ],
+    "control_list": [
+      "SC-7(20)",
+      "SI-14",
+      "CM-8(3)"
+    ]
+  },
+  "T1092": {
+    "candidate_mitigations": [
+      "CM1109",
+      "CM2008"
+    ],
+    "control_list": [
+      "SI-14",
+      "SC-7(20)",
+      "CM-8(3)"
+    ]
+  },
+  "T1140": {
+    "candidate_mitigations": [
+      "CM1110",
+      "CM2022"
+    ],
+    "control_list": [
+      "IR-4(2)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-7(1)",
+      "SI-7(7)",
+      "IR-4(13)",
+      "SI-4(16)"
+    ]
+  },
+  "T1129": {
+    "candidate_mitigations": [
+      "CM1111",
+      "CM1131",
+      "CM2022"
+    ],
+    "control_list": [
+      "AC-3(13)",
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)",
+      "IR-4(13)",
+      "SI-4(16)"
+    ]
+  },
+  "T1600": {
+    "candidate_mitigations": [
+      "CM1111",
+      "CM1134"
+    ],
+    "control_list": [
+      "AC-3(13)",
+      "SI-14(1)"
+    ]
+  },
+  "T1609": {
+    "candidate_mitigations": [
+      "CM1111",
+      "CM2005"
+    ],
+    "control_list": [
+      "AC-3(13)",
+      "AC-2(12)",
+      "SI-4(16)"
+    ]
+  },
+  "T1612": {
+    "candidate_mitigations": [
+      "CM1111",
+      "CM1149",
+      "CM2002",
+      "CM2015"
+    ],
+    "control_list": [
+      "AC-3(12)",
+      "AC-3(11)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1011": {
+    "candidate_mitigations": [
+      "CM1112",
+      "CM1113",
+      "CM1114",
+      "CM1127",
+      "CM2015",
+      "CM2035"
+    ],
+    "control_list": [
+      "SI-20",
+      "SC-26",
+      "SC-30(4)",
+      "SI-20",
+      "SI-23",
+      "SC-10",
+      "SC-7(10)",
+      "SI-14(3)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "AU-6"
+    ]
+  },
+  "T1029": {
+    "candidate_mitigations": [
+      "CM1112",
+      "CM1113",
+      "CM1114",
+      "CM1153",
+      "CM2015",
+      "CM2042"
+    ],
+    "control_list": [
+      "SI-20",
+      "SC-26",
+      "SC-30(4)",
+      "SI-20",
+      "SI-23",
+      "AC-4(27)",
+      "AC-4(30)",
+      "AC-4(29)",
+      "AU-6",
+      "IR-4(13)",
+      "IR-4(13)",
+      "SI-4(18)"
+    ]
+  },
+  "T1030": {
+    "candidate_mitigations": [
+      "CM1112",
+      "CM1113",
+      "CM1114",
+      "CM2041",
+      "CM2042",
+      "CM2047"
+    ],
+    "control_list": [
+      "SI-20",
+      "SC-26",
+      "SC-30(4)",
+      "SI-20",
+      "SI-23",
+      "IR-4(13)",
+      "IR-4(13)",
+      "SI-4(18)",
+      "IR-4(13)"
+    ]
+  },
+  "T1041": {
+    "candidate_mitigations": [
+      "CM1112",
+      "CM1113",
+      "CM1114",
+      "CM1127",
+      "CM2041",
+      "CM2042",
+      "CM2047"
+    ],
+    "control_list": [
+      "SI-20",
+      "SC-26",
+      "SC-30(4)",
+      "SI-20",
+      "SI-23",
+      "SC-10",
+      "SC-7(10)",
+      "SI-14(3)",
+      "IR-4(13)",
+      "IR-4(13)",
+      "IR-4(13)"
+    ]
+  },
+  "T1048": {
+    "candidate_mitigations": [
+      "CM1112",
+      "CM1113",
+      "CM1114",
+      "CM2041",
+      "CM2042"
+    ],
+    "control_list": [
+      "SI-20",
+      "SC-26",
+      "SC-30(4)",
+      "SI-20",
+      "SI-23",
+      "IR-4(13)",
+      "IR-4(13)",
+      "SI-4(18)"
+    ]
+  },
+  "T1052": {
+    "candidate_mitigations": [
+      "CM1112",
+      "CM1113",
+      "CM1114",
+      "CM2007",
+      "CM2008"
+    ],
+    "control_list": [
+      "SI-20",
+      "SC-26",
+      "SC-30(4)",
+      "SI-20",
+      "SI-23",
+      "IR-4(13)",
+      "SI-4(2)",
+      "CM-8(3)"
+    ]
+  },
+  "T1074": {
+    "candidate_mitigations": [
+      "CM1112",
+      "CM1116",
+      "CM2015",
+      "CM2020",
+      "CM2033",
+      "CM2038"
+    ],
+    "control_list": [
+      "SI-20",
+      "SC-30(3)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1537": {
+    "candidate_mitigations": [
+      "CM1112",
+      "CM1113",
+      "CM1114",
+      "CM2016"
+    ],
+    "control_list": [
+      "SI-20",
+      "SC-26",
+      "SC-30(4)",
+      "SI-20",
+      "SI-23",
+      "AC-2(12)"
+    ]
+  },
+  "T1567": {
+    "candidate_mitigations": [
+      "CM1112",
+      "CM1113",
+      "CM1114",
+      "CM1153",
+      "CM2042"
+    ],
+    "control_list": [
+      "SI-20",
+      "SC-26",
+      "SC-30(4)",
+      "SI-20",
+      "SI-23",
+      "AC-4(27)",
+      "AC-4(30)",
+      "AC-4(29)",
+      "IR-4(13)",
+      "SI-4(18)"
+    ]
+  },
+  "T1006": {
+    "candidate_mitigations": [
+      "CM1113",
+      "CM2015",
+      "CM2029"
+    ],
+    "control_list": [
+      "SC-30(4)",
+      "SI-20",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1134": {
+    "candidate_mitigations": [
+      "CM1113",
+      "CM1118",
+      "CM1126",
+      "CM1137",
+      "CM2014",
+      "CM2038"
+    ],
+    "control_list": [
+      "SC-26",
+      "SC-30(4)",
+      "SI-20",
+      "SC-2",
+      "SC-2(1)",
+      "SC-32",
+      "SC-32(1)",
+      "CP-13",
+      "SC-47",
+      "IA-10",
+      "SC-16(1)",
+      "SC-16(3)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1558": {
+    "candidate_mitigations": [
+      "CM1113"
+    ],
+    "control_list": [
+      "SC-30(4)"
+    ]
+  },
+  "T1007": {
+    "candidate_mitigations": [
+      "CM1115",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-25",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1057": {
+    "candidate_mitigations": [
+      "CM1115",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-25",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1120": {
+    "candidate_mitigations": [
+      "CM1115",
+      "CM1160",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-25",
+      "SC-30",
+      "SC-30(5)",
+      "SC-7(16)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1518": {
+    "candidate_mitigations": [
+      "CM1115",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-25",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1554": {
+    "candidate_mitigations": [
+      "CM1115",
+      "CM2009",
+      "CM2019"
+    ],
+    "control_list": [
+      "SC-25",
+      "SC-34(1)",
+      "SC-34",
+      "SI-7(1)",
+      "SI-7(6)",
+      "IR-4(12)"
+    ]
+  },
+  "T1485": {
+    "candidate_mitigations": [
+      "CM1116",
+      "CM1122",
+      "CM1130",
+      "CM1138",
+      "CM1139",
+      "CM1141",
+      "CM1142",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-30(3)",
+      "CP-2(8)",
+      "RA-9",
+      "SI-4(1)",
+      "SI-7",
+      "SI-7(1)",
+      "SA-9(7)",
+      "SI-7(1)",
+      "IR-4(2)",
+      "SI-22",
+      "IR-4(2)",
+      "AC-4(3)",
+      "IR-4(9)",
+      "SI-22",
+      "SI-23",
+      "SC-36",
+      "CP-2(5)",
+      "IR-4(2)",
+      "CP-9(6)",
+      "AC-4(2)",
+      "AC-4(8)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1531": {
+    "candidate_mitigations": [
+      "CM1117",
+      "CM1140",
+      "CM2015"
+    ],
+    "control_list": [
+      "AC-2(6)",
+      "AC-2(8)",
+      "AC-7(4)",
+      "SC-47",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1005": {
+    "candidate_mitigations": [
+      "CM1118",
+      "CM1135",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-2",
+      "SC-2(1)",
+      "SC-32",
+      "SC-32(1)",
+      "SC-28(1)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1548": {
+    "candidate_mitigations": [
+      "CM1118",
+      "CM2005",
+      "CM2033"
+    ],
+    "control_list": [
+      "SC-2",
+      "SC-2(1)",
+      "SC-32",
+      "SC-32(1)",
+      "AC-2(12)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1025": {
+    "candidate_mitigations": [
+      "CM1119",
+      "CM1121",
+      "CM2020",
+      "CM2038"
+    ],
+    "control_list": [
+      "SC-25",
+      "AC-2(8)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1059": {
+    "candidate_mitigations": [
+      "CM1119",
+      "CM1131",
+      "CM1132",
+      "CM2029",
+      "CM2038"
+    ],
+    "control_list": [
+      "SC-25",
+      "AC-4(3)",
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "IR-4(3)",
+      "SC-7(21)",
+      "SI-3(10)",
+      "SI-14",
+      "SI-14(2)",
+      "CM-7(6)",
+      "SR-4(3)",
+      "IR-4(13)",
+      "SI-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(13)"
+    ]
+  },
+  "T1204": {
+    "candidate_mitigations": [
+      "CM1119",
+      "CM1136",
+      "CM2020"
+    ],
+    "control_list": [
+      "CM-7(2)",
+      "SC-25",
+      "SC-35",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1216": {
+    "candidate_mitigations": [
+      "CM1119",
+      "CM1131",
+      "CM1132",
+      "CM2015",
+      "CM2029",
+      "CM2038"
+    ],
+    "control_list": [
+      "SC-25",
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)",
+      "SI-14",
+      "SI-14(2)",
+      "CM-7(6)",
+      "SR-4(3)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1218": {
+    "candidate_mitigations": [
+      "CM1119",
+      "CM1131",
+      "CM1132",
+      "CM2015",
+      "CM2020"
+    ],
+    "control_list": [
+      "SC-25",
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)",
+      "SI-14",
+      "SI-14(2)",
+      "CM-7(6)",
+      "SR-4(3)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1220": {
+    "candidate_mitigations": [
+      "CM1119",
+      "CM1132",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-25",
+      "SI-14(2)",
+      "CM-7(6)",
+      "SR-4(3)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1553": {
+    "candidate_mitigations": [
+      "CM1119",
+      "CM1124",
+      "CM1131",
+      "CM2005",
+      "CM2009"
+    ],
+    "control_list": [
+      "SC-25",
+      "SC-23(3)",
+      "SI-14(2)",
+      "SI-21",
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)",
+      "SI-4(13)",
+      "SI-7(6)"
+    ]
+  },
+  "T1125": {
+    "candidate_mitigations": [
+      "CM1120",
+      "CM1121",
+      "CM2005",
+      "CM2020"
+    ],
+    "control_list": [
+      "SC-11",
+      "AC-2(8)",
+      "SI-4(16)",
+      "AC-2(12)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1123": {
+    "candidate_mitigations": [
+      "CM1121",
+      "CM2015"
+    ],
+    "control_list": [
+      "AC-2(8)",
+      "SC-15(1)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1185": {
+    "candidate_mitigations": [
+      "CM1121",
+      "CM2020"
+    ],
+    "control_list": [
+      "AC-2(8)",
+      "SC-15(1)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1496": {
+    "candidate_mitigations": [
+      "CM1121",
+      "CM1139",
+      "CM2044",
+      "CM2047"
+    ],
+    "control_list": [
+      "AC-2(8)",
+      "SC-15(1)",
+      "IR-4(2)",
+      "SC-7(20)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(11)",
+      "SI-4(13)"
+    ]
+  },
+  "T1489": {
+    "candidate_mitigations": [
+      "CM1122",
+      "CM2015",
+      "CM2044"
+    ],
+    "control_list": [
+      "CP-2(8)",
+      "RA-9",
+      "SI-4(1)",
+      "SI-7",
+      "SI-7(1)",
+      "IR-4(13)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1490": {
+    "candidate_mitigations": [
+      "CM1122",
+      "CM1143",
+      "CM1144",
+      "CM1145",
+      "CM2015",
+      "CM2033"
+    ],
+    "control_list": [
+      "CP-2(8)",
+      "RA-9",
+      "SI-4(1)",
+      "SI-7",
+      "SI-7(1)",
+      "CP-2(5)",
+      "IR-4(2)",
+      "SC-29",
+      "SA-17(9)",
+      "CP-2(5)",
+      "IR-4(2)",
+      "SC-29",
+      "SA-17(9)",
+      "SA-20",
+      "SA-23",
+      "IR-4(2)",
+      "IR-4(3)",
+      "SC-48",
+      "SC-48(1)",
+      "SI-4(1)",
+      "AC-2(6)",
+      "SC-7(20)",
+      "IR-4(13)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(24)"
+    ]
+  },
+  "T1176": {
+    "candidate_mitigations": [
+      "CM1123",
+      "CM2015",
+      "CM2020"
+    ],
+    "control_list": [
+      "SC-35",
+      "SC-26",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)"
+    ]
+  },
+  "T1189": {
+    "candidate_mitigations": [
+      "CM1123",
+      "CM2002",
+      "CM2003"
+    ],
+    "control_list": [
+      "SC-35",
+      "SC-26",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)",
+      "AC-2(12)"
+    ]
+  },
+  "T1574": {
+    "candidate_mitigations": [
+      "CM1123",
+      "CM1137",
+      "CM2015",
+      "CM2033"
+    ],
+    "control_list": [
+      "SC-35",
+      "SC-26",
+      "SI-7",
+      "SI-7(1)",
+      "PL-8(1)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(24)"
+    ]
+  },
+  "T1133": {
+    "candidate_mitigations": [
+      "CM1124",
+      "CM1126",
+      "CM1127",
+      "CM2005"
+    ],
+    "control_list": [
+      "SC-23(3)",
+      "IA-2(13)",
+      "SC-10",
+      "SI-14(3)",
+      "SI-4(13)",
+      "SI-4(16)"
+    ]
+  },
+  "T1539": {
+    "candidate_mitigations": [
+      "CM1124"
+    ],
+    "control_list": [
+      "SI-14(2)"
+    ]
+  },
+  "T1550": {
+    "candidate_mitigations": [
+      "CM1124",
+      "CM1126",
+      "CM2013"
+    ],
+    "control_list": [
+      "SC-23(3)",
+      "SI-14(2)",
+      "SI-21",
+      "IA-10",
+      "AU-6(3)",
+      "SI-4(16)"
+    ]
+  },
+  "T1530": {
+    "candidate_mitigations": [
+      "CM1126",
+      "CM2016"
+    ],
+    "control_list": [
+      "IA-10",
+      "IA-2(13)",
+      "AC-2(12)"
+    ]
+  },
+  "T1556": {
+    "candidate_mitigations": [
+      "CM1126",
+      "CM2018",
+      "CM2021"
+    ],
+    "control_list": [
+      "CP-13",
+      "SC-47",
+      "IA-10",
+      "AU-6(5)",
+      "AC-2(12)"
+    ]
+  },
+  "T1563": {
+    "candidate_mitigations": [
+      "CM1127",
+      "CM1146",
+      "CM2021"
+    ],
+    "control_list": [
+      "AC-12",
+      "SI-14(3)",
+      "SC-23(3)",
+      "SC-30(2)",
+      "AC-2(12)"
+    ]
+  },
+  "T1136": {
+    "candidate_mitigations": [
+      "CM1129",
+      "CM2015"
+    ],
+    "control_list": [
+      "CA-7(5)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1207": {
+    "candidate_mitigations": [
+      "CM1130",
+      "CM2002"
+    ],
+    "control_list": [
+      "SI-7(1)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1047": {
+    "candidate_mitigations": [
+      "CM1131",
+      "CM1164",
+      "CM2002",
+      "CM2015"
+    ],
+    "control_list": [
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)",
+      "AC-6(5)",
+      "AC-6",
+      "CM-7(2)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1072": {
+    "candidate_mitigations": [
+      "CM1131",
+      "CM1133",
+      "CM1134",
+      "CM2012",
+      "CM2018"
+    ],
+    "control_list": [
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)",
+      "CM-7(6)",
+      "SI-14(1)",
+      "SI-4(17)",
+      "PM-16",
+      "PM-30(1)",
+      "AU-6(3)",
+      "AU-6(5)"
+    ]
+  },
+  "T1080": {
+    "candidate_mitigations": [
+      "CM1131",
+      "CM1137",
+      "CM2015",
+      "CM2035"
+    ],
+    "control_list": [
+      "AC-4(3)",
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "IR-4(3)",
+      "SC-7(21)",
+      "SI-3(10)",
+      "SI-7",
+      "IR-4(13)",
+      "SI-4(2)",
+      "AU-6"
+    ]
+  },
+  "T1106": {
+    "candidate_mitigations": [
+      "CM1131",
+      "CM2022"
+    ],
+    "control_list": [
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)",
+      "IR-4(13)",
+      "SI-4(16)"
+    ]
+  },
+  "T1211": {
+    "candidate_mitigations": [
+      "CM1131"
+    ],
+    "control_list": [
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)"
+    ]
+  },
+  "T1480": {
+    "candidate_mitigations": [
+      "CM1131"
+    ],
+    "control_list": [
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)"
+    ]
+  },
+  "T1557": {
+    "candidate_mitigations": [
+      "CM1131",
+      "CM2002"
+    ],
+    "control_list": [
+      "IR-4(2)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "IR-4(13)"
+    ]
+  },
+  "T1559": {
+    "candidate_mitigations": [
+      "CM1131",
+      "CM2040",
+      "CM2047"
+    ],
+    "control_list": [
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)",
+      "IR-4(13)",
+      "SI-4(13)",
+      "SI-4(2)",
+      "SI-4(4)",
+      "IR-4(13)",
+      "SI-4(11)",
+      "SI-4(13)"
+    ]
+  },
+  "T1569": {
+    "candidate_mitigations": [
+      "CM1131",
+      "CM2004",
+      "CM2035",
+      "CM2038"
+    ],
+    "control_list": [
+      "IR-4(2)",
+      "SC-30(4)",
+      "SC-26",
+      "AC-4(3)",
+      "IR-4(3)",
+      "SC-7(21)",
+      "AU-6",
+      "AU-6",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1071": {
+    "candidate_mitigations": [
+      "CM1133",
+      "CM1151",
+      "CM1153",
+      "CM2002",
+      "CM2041"
+    ],
+    "control_list": [
+      "CM-7(6)",
+      "SC-7(21)",
+      "AC-4(21)",
+      "SC-7(21)",
+      "SC-7(22)",
+      "AC-4(12)",
+      "AC-4(8)",
+      "AC-4(17)",
+      "AC-4(27)",
+      "AC-4(30)",
+      "SC-46",
+      "AC-4(29)",
+      "IR-4(13)",
+      "SI-4(4)",
+      "IR-4(13)"
+    ]
+  },
+  "T1137": {
+    "candidate_mitigations": [
+      "CM1134",
+      "CM2004",
+      "CM2020",
+      "CM2033"
+    ],
+    "control_list": [
+      "SI-14(1)",
+      "AU-6",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1525": {
+    "candidate_mitigations": [
+      "CM1134",
+      "CM2021",
+      "CM2033"
+    ],
+    "control_list": [
+      "SI-14(1)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1542": {
+    "candidate_mitigations": [
+      "CM1134",
+      "CM1154",
+      "CM2019",
+      "CM2022"
+    ],
+    "control_list": [
+      "SI-14(1)",
+      "SC-51",
+      "IR-4(12)",
+      "IR-4(13)",
+      "SI-4(16)"
+    ]
+  },
+  "T1599": {
+    "candidate_mitigations": [
+      "CM1134",
+      "CM1305",
+      "CM2002",
+      "CM2044"
+    ],
+    "control_list": [
+      "SI-14(1)",
+      "AU-9(7)",
+      "SC-29",
+      "SC-29(1)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1601": {
+    "candidate_mitigations": [
+      "CM1134",
+      "CM1137",
+      "CM2009"
+    ],
+    "control_list": [
+      "SI-14(1)",
+      "SC-16(1)",
+      "SC-16(3)",
+      "SI-7(6)"
+    ]
+  },
+  "T1495": {
+    "candidate_mitigations": [
+      "CM1143",
+      "CM1144",
+      "CM1145",
+      "CM1154"
+    ],
+    "control_list": [
+      "CP-2(5)",
+      "IR-4(2)",
+      "SC-29",
+      "SA-17(9)",
+      "CP-2(5)",
+      "IR-4(2)",
+      "SC-29",
+      "SA-17(9)",
+      "SA-20",
+      "SA-23",
+      "IR-4(3)",
+      "SC-48",
+      "SC-48(1)",
+      "SI-4(1)",
+      "AC-2(6)",
+      "SC-7(20)",
+      "SC-51"
+    ]
+  },
+  "T1104": {
+    "candidate_mitigations": [
+      "CM1146",
+      "CM1151",
+      "CM1153",
+      "CM2018"
+    ],
+    "control_list": [
+      "SI-14(3)",
+      "SC-30(2)",
+      "AC-4(21)",
+      "SC-7(21)",
+      "SC-7(22)",
+      "AC-4(12)",
+      "AC-4(8)",
+      "AC-4(17)",
+      "AC-4(27)",
+      "AC-4(30)",
+      "SC-46",
+      "AC-4(29)",
+      "AU-6(3)",
+      "AU-6(5)"
+    ]
+  },
+  "T1055": {
+    "candidate_mitigations": [
+      "CM1150",
+      "CM1152",
+      "CM2007",
+      "CM2014"
+    ],
+    "control_list": [
+      "SC-30(3)",
+      "SI-14(1)",
+      "SI-16",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1090": {
+    "candidate_mitigations": [
+      "CM1151",
+      "CM1153",
+      "CM2002",
+      "CM2041"
+    ],
+    "control_list": [
+      "AC-4(21)",
+      "SC-7(21)",
+      "SC-7(22)",
+      "AC-4(8)",
+      "AC-4(17)",
+      "AC-4(27)",
+      "AC-4(30)",
+      "SC-46",
+      "AC-4(29)",
+      "IR-4(13)",
+      "SI-4(4)",
+      "IR-4(13)"
+    ]
+  },
+  "T1095": {
+    "candidate_mitigations": [
+      "CM1151",
+      "CM1153",
+      "CM2002",
+      "CM2041"
+    ],
+    "control_list": [
+      "AC-4(21)",
+      "SC-7(21)",
+      "SC-7(22)",
+      "AC-4(8)",
+      "AC-4(17)",
+      "AC-4(27)",
+      "AC-4(30)",
+      "SC-46",
+      "AC-4(29)",
+      "IR-4(13)",
+      "SI-4(4)",
+      "IR-4(13)"
+    ]
+  },
+  "T1105": {
+    "candidate_mitigations": [
+      "CM1151",
+      "CM2002",
+      "CM2015",
+      "CM2033",
+      "CM2041"
+    ],
+    "control_list": [
+      "AC-4(21)",
+      "SC-7(21)",
+      "SC-7(22)",
+      "AC-4(12)",
+      "AC-4(8)",
+      "AC-4(17)",
+      "IR-4(13)",
+      "SI-4(4)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)"
+    ]
+  },
+  "T1572": {
+    "candidate_mitigations": [
+      "CM1151",
+      "CM2002",
+      "CM2041",
+      "CM2047"
+    ],
+    "control_list": [
+      "AC-4(21)",
+      "SC-7(21)",
+      "SC-7(22)",
+      "AC-4(8)",
+      "AC-4(17)",
+      "IR-4(13)",
+      "SI-4(4)",
+      "IR-4(13)",
+      "IR-4(13)",
+      "SI-4(11)",
+      "SI-4(13)"
+    ]
+  },
+  "T1573": {
+    "candidate_mitigations": [
+      "CM1151",
+      "CM2002",
+      "CM2041"
+    ],
+    "control_list": [
+      "AC-4(21)",
+      "SC-7(21)",
+      "SC-7(22)",
+      "AC-4(8)",
+      "AC-4(17)",
+      "IR-4(13)",
+      "SI-4(10)",
+      "SI-4(4)",
+      "IR-4(13)",
+      "SI-4(10)",
+      "SI-4(25)"
+    ]
+  },
+  "T1001": {
+    "candidate_mitigations": [
+      "CM1153",
+      "CM2002",
+      "CM2041"
+    ],
+    "control_list": [
+      "AC-4(27)",
+      "AC-4(30)",
+      "SC-46",
+      "AC-4(29)",
+      "IR-4(13)",
+      "SI-4(10)",
+      "SI-4(4)",
+      "IR-4(13)"
+    ]
+  },
+  "T1613": {
+    "candidate_mitigations": [
+      "CM1158",
+      "CM2023"
+    ],
+    "control_list": [
+      "AU-9(2)",
+      "AU-6(5)",
+      "IR-4(4)"
+    ]
+  },
+  "T1528": {
+    "candidate_mitigations": [
+      "CM1159",
+      "CM2048"
+    ],
+    "control_list": [
+      "AT-2(1)",
+      "AT-2(3)",
+      "AT-2(5)",
+      "AT-3(3)",
+      "IR-5"
+    ]
+  },
+  "T1585": {
+    "candidate_mitigations": [
+      "CM1159",
+      "CM2043"
+    ],
+    "control_list": [
+      "AT-2(1)",
+      "AT-2(5)",
+      "AT-3(3)",
+      "AU-13",
+      "AU-13(3)",
+      "RA-10",
+      "RA-5(4)"
+    ]
+  },
+  "T1586": {
+    "candidate_mitigations": [
+      "CM1159",
+      "CM2043"
+    ],
+    "control_list": [
+      "AT-2(1)",
+      "AT-2(3)",
+      "AT-2(5)",
+      "AT-3(3)",
+      "AU-13",
+      "AU-13(3)",
+      "RA-10",
+      "RA-5(4)"
+    ]
+  },
+  "T1588": {
+    "candidate_mitigations": [
+      "CM1159",
+      "CM2043"
+    ],
+    "control_list": [
+      "AT-2(1)",
+      "AT-2(5)",
+      "AT-3(3)",
+      "PM-16",
+      "RA-10"
+    ]
+  },
+  "T1049": {
+    "candidate_mitigations": [
+      "CM1160",
+      "CM2015"
+    ],
+    "control_list": [
+      "SC-30",
+      "SC-30(5)",
+      "SC-7(16)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1608": {
+    "candidate_mitigations": [
+      "CM1162",
+      "CM2043"
+    ],
+    "control_list": [
+      "SR-10",
+      "SR-6(1)",
+      "CM-7(7)",
+      "SR-11",
+      "SR-5",
+      "PM-16",
+      "RA-10"
+    ]
+  },
+  "T1610": {
+    "candidate_mitigations": [
+      "CM1164",
+      "CM2005",
+      "CM2007"
+    ],
+    "control_list": [
+      "AC-6(5)",
+      "AC-6",
+      "CM-7(2)",
+      "SI-4(16)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1132": {
+    "candidate_mitigations": [
+      "CM2002",
+      "CM2041"
+    ],
+    "control_list": [
+      "IR-4(13)",
+      "SI-4(10)",
+      "SI-4(4)",
+      "IR-4(13)"
+    ]
+  },
+  "T1187": {
+    "candidate_mitigations": [
+      "CM2002",
+      "CM2003"
+    ],
+    "control_list": [
+      "AC-2(12)",
+      "AC-2(12)"
+    ]
+  },
+  "T1571": {
+    "candidate_mitigations": [
+      "CM2002",
+      "CM2041"
+    ],
+    "control_list": [
+      "IR-4(13)",
+      "SI-4(4)",
+      "IR-4(13)"
+    ]
+  },
+  "T1212": {
+    "candidate_mitigations": [
+      "CM2003"
+    ],
+    "control_list": [
+      "AC-2(12)"
+    ]
+  },
+  "T1111": {
+    "candidate_mitigations": [
+      "CM2004"
+    ],
+    "control_list": [
+      "AU-6"
+    ]
+  },
+  "T1222": {
+    "candidate_mitigations": [
+      "CM2004",
+      "CM2033"
+    ],
+    "control_list": [
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(24)"
+    ]
+  },
+  "T1535": {
+    "candidate_mitigations": [
+      "CM2004"
+    ],
+    "control_list": [
+      "AU-6",
+      "SI-4(11)"
+    ]
+  },
+  "T1538": {
+    "candidate_mitigations": [
+      "CM2004"
+    ],
+    "control_list": [
+      "AU-6"
+    ]
+  },
+  "T1113": {
+    "candidate_mitigations": [
+      "CM2005",
+      "CM2020"
+    ],
+    "control_list": [
+      "SI-4(16)",
+      "AC-2(12)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1505": {
+    "candidate_mitigations": [
+      "CM2005",
+      "CM2015"
+    ],
+    "control_list": [
+      "AC-2(12)",
+      "SI-4(16)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1611": {
+    "candidate_mitigations": [
+      "CM2005",
+      "CM2007"
+    ],
+    "control_list": [
+      "SI-4(16)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1199": {
+    "candidate_mitigations": [
+      "CM2012"
+    ],
+    "control_list": [
+      "PM-16",
+      "PM-30(1)",
+      "SI-10(3)"
+    ]
+  },
+  "T1010": {
+    "candidate_mitigations": [
+      "CM2015",
+      "CM2020"
+    ],
+    "control_list": [
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1127": {
+    "candidate_mitigations": [
+      "CM2015"
+    ],
+    "control_list": [
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1201": {
+    "candidate_mitigations": [
+      "CM2015"
+    ],
+    "control_list": [
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1217": {
+    "candidate_mitigations": [
+      "CM2015",
+      "CM2020"
+    ],
+    "control_list": [
+      "IR-4(13)",
+      "SI-4(2)",
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1115": {
+    "candidate_mitigations": [
+      "CM2018"
+    ],
+    "control_list": [
+      "AU-6(5)"
+    ]
+  },
+  "T1578": {
+    "candidate_mitigations": [
+      "CM2023"
+    ],
+    "control_list": [
+      "AU-6(5)",
+      "IR-4(4)"
+    ]
+  },
+  "T1560": {
+    "candidate_mitigations": [
+      "CM2033"
+    ],
+    "control_list": [
+      "IR-4(13)",
+      "SI-4(2)"
+    ]
+  },
+  "T1124": {
+    "candidate_mitigations": [
+      "CM2038"
+    ],
+    "control_list": [
+      "IR-4(13)",
+      "SI-4(2)",
+      "SI-4(4)"
+    ]
+  },
+  "T1584": {
+    "candidate_mitigations": [
+      "CM2043"
+    ],
+    "control_list": [
+      "AU-13",
+      "AU-13(3)",
+      "PM-16",
+      "RA-10",
+      "RA-5(4)"
+    ]
+  },
+  "T1587": {
+    "candidate_mitigations": [
+      "CM2043"
+    ],
+    "control_list": [
+      "PM-16",
+      "RA-10"
+    ]
+  }
+}

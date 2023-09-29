@@ -1,0 +1,98 @@
+{
+  "name": "Lapsus IR Scenario",
+  "description": "Top matches:\nFIN5: 20.0%\nAPT18: 19.05%\nPittyTiger: 18.18%\nAPT34: 17.39%\nNight Dragon: 16.67%\nTEMP.Veles: 15.38%\n",
+  "techniques": [
+    {
+      "techniqueID": "T1589.001",
+      "score": 1,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1621",
+      "score": 1,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1566.003",
+      "score": 1,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1078",
+      "score": 1,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1133",
+      "score": 1,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1135",
+      "score": 1,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1552.001",
+      "score": 1,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1078.002",
+      "score": 1,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1048",
+      "score": 1,
+      "enabled": true
+    }
+  ],
+  "versions": {
+    "attack": "13",
+    "navigator": "4.8.2",
+    "layer": "4.4"
+  },
+  "domain": "enterprise-attack",
+  "filters": {
+    "platforms": [
+      "Linux",
+      "macOS",
+      "Windows",
+      "PRE",
+      "Containers",
+      "Network",
+      "Office 365",
+      "SaaS",
+      "Google Workspace",
+      "IaaS",
+      "Azure AD"
+    ]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "aggregateFunction": "average",
+    "showID": false,
+    "showName": true,
+    "showAggregateScores": false,
+    "countUnscored": false
+  },
+  "hideDisabled": false,
+  "gradient": {
+    "colors": [
+      "#ff6666ff",
+      "#ffe766ff",
+      "#8ec843ff"
+    ],
+    "minValue": 0,
+    "maxValue": 100
+  },
+  "legendItems": [],
+  "metadata": [],
+  "links": [],
+  "showTacticRowBackground": false,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": false,
+  "selectSubtechniquesWithParent": false
+}

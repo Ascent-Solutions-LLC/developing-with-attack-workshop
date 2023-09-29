@@ -1,0 +1,492 @@
+[
+    {
+        "id": "CM1101",
+        "name": "Present Deceptive Information",
+        "description": "Present deceptive information about systems, data, processes, and users. Monitor uses or search for presence of that information."
+    },
+    {
+        "id": "CM1102",
+        "name": "Maintain Deception Environment",
+        "description": "Maintain a distinct subsystem or a set of components specifically designed to be the target of malicious attacks for detecting, deflecting, and analyzing such attacks."
+    },
+    {
+        "id": "CM1103",
+        "name": "Detonation Chamber",
+        "description": "Use a dynamic execution environment to handle potentially harmful incoming data."
+    },
+    {
+        "id": "CM1104",
+        "name": "Passive Decoys",
+        "description": "Use a factitious system or resource to decoy adversary attacks away from operational resources, to increase the adversary's workload, or to observe adversary activities."
+    },
+    {
+        "id": "CM1105",
+        "name": "Component Provenance Validation",
+        "description": "Validate the provenance of system components."
+    },
+    {
+        "id": "CM1106",
+        "name": "Supply Chain Diversity",
+        "description": "Provide multiple distinct supply chains for system components."
+    },
+    {
+        "id": "CM1107",
+        "name": "Adversarial Simulation",
+        "description": "Simulate adversary activities to test the effectiveness of system protections and detection mechanisms."
+    },
+    {
+        "id": "CM1108",
+        "name": "Dynamically Restrict Traffic or Isolate Resources",
+        "description": "Dynamically reconfigure networks to restrict network traffic or isolate resources."
+    },
+    {
+        "id": "CM1109",
+        "name": "Virtual Sandbox",
+        "description": "Use virtualization to create a controlled execution environment, which is expunged after execution terminates."
+    },
+    {
+        "id": "CM1110",
+        "name": "Application- or Utility-Specific Data Removal",
+        "description": "Analyze files and data structures specific to an application or utility for anomalies, and delete them."
+    },
+    {
+        "id": "CM1111",
+        "name": "Execution Restriction",
+        "description": "Restrict the sources of executables and the locations in which execution can occur, or implement other constraints on execution access."
+    },
+    {
+        "id": "CM1112",
+        "name": "Covert Signaling",
+        "description": "Use hidden logic to enable exfiltrated data to signal its location or embed hidden data that can be the subject of a search."
+    },
+    {
+        "id": "CM1113",
+        "name": "Present Decoy Data",
+        "description": "Present plausible but factitious data assets to attract the adversary. Monitor uses of those assets, or search for the presence of decoy information."
+    },
+    {
+        "id": "CM1114",
+        "name": "Fragment Information",
+        "description": "Fragment information, and distribute it across multiple locations."
+    },
+    {
+        "id": "CM1115",
+        "name": "Lock Down Thin Nodes",
+        "description": "Minimize local functionality, and disallow writable storage."
+    },
+    {
+        "id": "CM1116",
+        "name": "Dynamic Data Location",
+        "description": "Dynamically move data resources."
+    },
+    {
+        "id": "CM1117",
+        "name": "Dynamic Account Management",
+        "description": "Dynamically update an account's authorizations or privileges."
+    },
+    {
+        "id": "CM1118",
+        "name": "Partition Host",
+        "description": "Partition a host (e.g., server, endpoint system) into separate logical domains."
+    },
+    {
+        "id": "CM1119",
+        "name": "Minimize Local Functionality",
+        "description": "Construct or configure systems or applications to minimize their inherent functionality."
+    },
+    {
+        "id": "CM1120",
+        "name": "Trusted Path",
+        "description": "Provide an isolated communications path between the user and security functions."
+    },
+    {
+        "id": "CM1121",
+        "name": "Dynamically Disable or Suspend",
+        "description": "Terminate processes or disable capabilities upon triggering conditions."
+    },
+    {
+        "id": "CM1122",
+        "name": "Perform Mission Damage Assessment",
+        "description": "Determine the mission consequences of adversary activities (e.g., which resources can be relied on; how quickly, how completely, and with what confidence mission-essential services, data, and communications can be restored from backups or alternative resources)."
+    },
+    {
+        "id": "CM1123",
+        "name": "Active Decoys",
+        "description": "Use one or more factitious systems or other resources to identify malicious sites, interact with the adversary, actively probe for malicious code, and observe adversary TTPs."
+    },
+    {
+        "id": "CM1124",
+        "name": "Minimize Data Retention or Lifespan",
+        "description": "Minimize the lifespan or retention of data, and ensure that deleted data cannot be retrieved."
+    },
+    {
+        "id": "CM1125",
+        "name": "Authenticate Devices",
+        "description": "Authenticate a device before establishing a connection to it."
+    },
+    {
+        "id": "CM1126",
+        "name": "Enhanced Authentication",
+        "description": "Use situation-specific, risk- adaptive, or out-of-band authentication."
+    },
+    {
+        "id": "CM1127",
+        "name": "Minimize Duration of Connection or Session",
+        "description": "Minimize the time period for which a connection remains open or a session remains active, requiring reauthorization to reestablish connectivity."
+    },
+    {
+        "id": "CM1128",
+        "name": "Design Diversity",
+        "description": "Use multiple designs to implement the same functionality."
+    },
+    {
+        "id": "CM1129",
+        "name": "Check Policy Consistency",
+        "description": "Ensure that policies are applied consistently across systems, applications, and services."
+    },
+    {
+        "id": "CM1130",
+        "name": "Validate Data Quality",
+        "description": "Validate data quality (e.g., integrity, consistency, correctness)."
+    },
+    {
+        "id": "CM1131",
+        "name": "Active Deception",
+        "description": "Maintain an internal deception environment, divert suspicious traffic to that environment, and interact with and analyze behavior to determine whether it is malicious and whether to investigate adversary TTPs."
+    },
+    {
+        "id": "CM1132",
+        "name": "Quarantine or Delete Suspicious Files",
+        "description": "Move and make inaccessible or delete suspicious files."
+    },
+    {
+        "id": "CM1133",
+        "name": "Isolate or Contain Selected Applications or Components",
+        "description": "Isolate or contain (e.g., using internal firewalls or virtual environments) selected applications or components based on risk profiles."
+    },
+    {
+        "id": "CM1134",
+        "name": "Refresh Selected Applications or Components",
+        "description": "Refresh software, firmware, or data from a trusted source."
+    },
+    {
+        "id": "CM1135",
+        "name": "Hide Sensitive Information",
+        "description": "Conceal (e.g., via encryption or data hiding) or remove sensitive information (including metadata)."
+    },
+    {
+        "id": "CM1136",
+        "name": "Identify External Malware",
+        "description": "Identify and redirect malware found on external systems."
+    },
+    {
+        "id": "CM1137",
+        "name": "Validate Data Properties",
+        "description": "Validate data properties (including binaries, metadata, and cryptographic bindings) to defend against modification or fabrication."
+    },
+    {
+        "id": "CM1138",
+        "name": "Switch to Alternative Data Sources",
+        "description": "Switch to one or more alternative data sources to ensure adequate data quality or rebuild destroyed data."
+    },
+    {
+        "id": "CM1139",
+        "name": "Dynamically Reprovision",
+        "description": "Reconfigure or reallocate resources to route around damage."
+    },
+    {
+        "id": "CM1140",
+        "name": "Use Alternate Communications",
+        "description": "Use alternative communications paths."
+    },
+    {
+        "id": "CM1141",
+        "name": "Reconstruct Compromised Assets",
+        "description": "Reconstruct assets (e.g., files, software components) that have been damaged, destroyed, or modified in a way that makes them suspect."
+    },
+    {
+        "id": "CM1142",
+        "name": "Switch to Protected Hot Shadow",
+        "description": "Switch (failover) to a duplicate system in a protected enclave that, subject to additional quality controls on data and software updates, mirrors the system that has been compromised."
+    },
+    {
+        "id": "CM1143",
+        "name": "Switch to Alternate System or Component",
+        "description": "Switch (failover) to another system or system component that provides approximately the same functionality in a different way."
+    },
+    {
+        "id": "CM1144",
+        "name": "Activate Alternate",
+        "description": "Activate an alternate system or system component (e.g., from a war-time reserve) that provides approximately the same function in a novel or specialized way, and failover."
+    },
+    {
+        "id": "CM1145",
+        "name": "Defend Failover and Recovery",
+        "description": "Increase sensor activity and restrict privileges to defend against an adversary taking advantage of failover or recovery activities."
+    },
+    {
+        "id": "CM1146",
+        "name": "Refresh Sessions or Connections",
+        "description": "Terminate and re-establish sessions or network connections unpredictably to disrupt adversary use."
+    },
+    {
+        "id": "CM1147",
+        "name": "Defend Against DoS",
+        "description": "Adapt to reduce the impacts of denial-of-service attacks."
+    },
+    {
+        "id": "CM1148",
+        "name": "Conceal or Randomize Network Traffic",
+        "description": "Conceal (via encryption or insertion of fabricated traffic) or randomize network traffic patterns."
+    },
+    {
+        "id": "CM1149",
+        "name": "Lock Down Visibility or Access",
+        "description": "Restrict the visibility of or access to data based on the nature or attributes of that data."
+    },
+    {
+        "id": "CM1150",
+        "name": "Dynamically Relocate and Refresh Processing",
+        "description": "Suspend a process and re- instantiate it in a different location."
+    },
+    {
+        "id": "CM1151",
+        "name": "Defend Enclave Boundaries",
+        "description": "Maintain distinct enclaves based on security characteristics, and use stringent filtering to defend the enclave boundary."
+    },
+    {
+        "id": "CM1152",
+        "name": "Defend Against Memory Attacks",
+        "description": "Provide defenses against attacks against system memory."
+    },
+    {
+        "id": "CM1153",
+        "name": "Modulate Information Flows",
+        "description": "Use controlled interfaces and communication paths to provide access to risky capabilities or filter communications between enclaves."
+    },
+    {
+        "id": "CM1154",
+        "name": "Hardware-Based Protection of Firmware",
+        "description": "Use hardware-based protections for firmware."
+    },
+    {
+        "id": "CM1155",
+        "name": "Validate Output Data",
+        "description": "Validate information output from processes or applications against defined criteria."
+    },
+    {
+        "id": "CM1156",
+        "name": "Physically Relocate Resources",
+        "description": "Physically move resources (e.g., storage devices, servers, end-user devices) with concomitant changes to network location."
+    },
+    {
+        "id": "CM1157",
+        "name": "Defend Against Data Mining",
+        "description": "Enforce access restrictions, and provide alerting to defend against data mining."
+    },
+    {
+        "id": "CM1158",
+        "name": "Defend Audit Data",
+        "description": "Provide mechanisms to protect audit data from modification or observation."
+    },
+    {
+        "id": "CM1159",
+        "name": "Enhance User Preparedness",
+        "description": "Keep users, administrators, and operators aware of existing and emerging threats and attack techniques that they can counter in practice."
+    },
+    {
+        "id": "CM1160",
+        "name": "Conceal Resources from Discovery",
+        "description": "Protect the network addresses of system components that are part of managed interfaces from discovery through common tools and techniques, such as hiding or relocation."
+    },
+    {
+        "id": "CM1161",
+        "name": "Collaborate to Counter Adversaries",
+        "description": "Collaborate with other entities to counter adversary activities."
+    },
+    {
+        "id": "CM1162",
+        "name": "Restrict Supply Chain Exposures",
+        "description": "Limit an adversary's ability to determine or manipulate the organization's cyber supply chain."
+    },
+    {
+        "id": "CM1164",
+        "name": "Calibrate Administrative Access",
+        "description": "Configure administrator access to resources based on active defense strategies."
+    },
+    {
+        "id": "CM1305",
+        "name": "Enhance via Heterogeneity",
+        "description": "Increase barriers to adversary effectiveness by providing architecturally diverse system components."
+    },
+    {
+        "id": "CM2002",
+        "name": "Inspect and Analyze Network Traffic",
+        "description": "Analyze network traffic for unusual data flows. Traffic inspection and analysis can be performed at the enterprise boundary, at internal boundaries between enclaves, or within enclaves."
+    },
+    {
+        "id": "CM2003",
+        "name": "Endpoint Behavior Analysis",
+        "description": "Analyze the behavior of endpoint (i.e., end-user, client) systems for anomalous behavior."
+    },
+    {
+        "id": "CM2004",
+        "name": "Monitor Logs",
+        "description": "Monitor system and application logs for anomalous or suspicious behavior."
+    },
+    {
+        "id": "CM2005",
+        "name": "Analyze Logs",
+        "description": "Analyze logs (individually or with some correlation across logs) for anomalous or suspicious patterns of behavior."
+    },
+    {
+        "id": "CM2006",
+        "name": "Analyze File Contents",
+        "description": "Analyze the contents of specific files or types of files for suspicious contents."
+    },
+    {
+        "id": "CM2007",
+        "name": "Host Event Detection",
+        "description": "Detect anomalous or unauthorized events on hosts (e.g., servers, endpoint systems)."
+    },
+    {
+        "id": "CM2008",
+        "name": "Removable Device Usage Detection",
+        "description": "Detect anomalous or unauthorized events involving the use of removable devices."
+    },
+    {
+        "id": "CM2009",
+        "name": "Software Integrity Check",
+        "description": "Perform integrity checks (e.g., using checksums, hashes, or digital signatures) on software, software certificates, or metadata."
+    },
+    {
+        "id": "CM2010",
+        "name": "Software Stress Testing",
+        "description": "Perform software stress testing (e.g., using out-of-bounds input values) prior to installation."
+    },
+    {
+        "id": "CM2011",
+        "name": "Physical Inspection",
+        "description": "Perform a physical inspection of hardware components for indicators of tampering."
+    },
+    {
+        "id": "CM2012",
+        "name": "Monitor Trusted Parties",
+        "description": "Monitor the behavior and status (e.g., change in ownership) of second or third parties."
+    },
+    {
+        "id": "CM2013",
+        "name": "Cross-Enterprise Account Usage Analysis",
+        "description": "Analyze user account usage across the enterprise for anomalies or suspicious behavior."
+    },
+    {
+        "id": "CM2014",
+        "name": "Process Analysis",
+        "description": "Analyze process attributes or behavior for indications of unusual, unauthorized, or suspicious use."
+    },
+    {
+        "id": "CM2015",
+        "name": "Process Monitoring",
+        "description": "Monitor the behavior of processes for indications of unusual, unauthorized, or suspicious use."
+    },
+    {
+        "id": "CM2016",
+        "name": "Cloud Account Monitoring",
+        "description": "Monitor activity associated with cloud accounts for indications of unusual, unauthorized, or suspicious use."
+    },
+    {
+        "id": "CM2017",
+        "name": "Privileged Account Monitoring",
+        "description": "Monitor and analyze activity associated with privileged accounts for indications of unusual or suspicious use."
+    },
+    {
+        "id": "CM2018",
+        "name": "Cross-Enterprise Behavior Analysis",
+        "description": "Correlate and analyze the behavior of multiple systems."
+    },
+    {
+        "id": "CM2019",
+        "name": "Endpoint Scrutiny",
+        "description": "Scrutinize the contents and behavior patterns of an endpoint system."
+    },
+    {
+        "id": "CM2020",
+        "name": "Application- or Utility-Specific Monitoring",
+        "description": "Monitor and analyze events in the context of a specific application or utility."
+    },
+    {
+        "id": "CM2021",
+        "name": "Account Monitoring",
+        "description": "Monitor and analyze activity associated with user accounts for indications of unusual or suspicious use."
+    },
+    {
+        "id": "CM2022",
+        "name": "Host-Local Event Correlation",
+        "description": "Correlate and analyze events occurring on a single host."
+    },
+    {
+        "id": "CM2023",
+        "name": "Centralize and Analyze Instance Logging",
+        "description": "Centralize instance logging in a cloud or container environment and analyze."
+    },
+    {
+        "id": "CM2029",
+        "name": "Monitor Script Execution",
+        "description": "Monitor for the execution of scripts that are unknown or used in suspicious ways."
+    },
+    {
+        "id": "CM2033",
+        "name": "Monitor the File System",
+        "description": "Monitor the file system to identify the unexpected presence and atypical use of specific types of files or atypical patterns of access."
+    },
+    {
+        "id": "CM2034",
+        "name": "Monitor Specific Servers",
+        "description": "Monitor specific servers for anomalous or suspicious uses or access attempts."
+    },
+    {
+        "id": "CM2035",
+        "name": "Monitor Specific Files",
+        "description": "Monitor the use of specific files or directories for anomalous or suspicious uses or access attempts."
+    },
+    {
+        "id": "CM2038",
+        "name": "Monitor Command Line Use",
+        "description": "Monitor command line interface use for common utilities (part of the system or installed by an adversary) and suspicious behavior."
+    },
+    {
+        "id": "CM2040",
+        "name": "Monitor Use of Libraries and Utilities",
+        "description": "Monitor the use of libraries and utilities that are commonly used to support adversary actions."
+    },
+    {
+        "id": "CM2041",
+        "name": "Analyze Network Traffic Content",
+        "description": "Analyze the contents of network traffic."
+    },
+    {
+        "id": "CM2042",
+        "name": "Analyze Outgoing Traffic Patterns",
+        "description": "Analyze outgoing traffic for patterns of behavior that indicate adversary communications."
+    },
+    {
+        "id": "CM2043",
+        "name": "Monitor External Sources",
+        "description": "Monitor and analyze external information sources for indicators of adversary activities, especially those targeting the organization."
+    },
+    {
+        "id": "CM2044",
+        "name": "Monitor Platform Status",
+        "description": "Monitor the status of platforms (e.g., user endpoints, servers, network devices)."
+    },
+    {
+        "id": "CM2047",
+        "name": "Monitor Network Usage",
+        "description": "Monitor network usage for anomalous behavior."
+    },
+    {
+        "id": "CM2048",
+        "name": "Hunt for Malicious Processes",
+        "description": "Hunt for applications or processes that display specific malicious or suspect behaviors."
+    }
+]
